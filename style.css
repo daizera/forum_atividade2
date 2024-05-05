@@ -1,0 +1,36 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainContent{
+    width: 40vw;
+    height: 15vh;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px;
+    border: 5px solid black;
+}
+
+.cabeca{
+    display: flex;
+    justify-content: center;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Osnumeros{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.numeros{
+    margin: 5px;
+}
